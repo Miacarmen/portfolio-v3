@@ -7,7 +7,7 @@ const Contact = () => {
   const isTablet = useMediaQuery({ minWidth: 769, maxWidth: 1024 }); // For iPad devices
 
   return (
-    <div className='main-container'>
+    <>
       {isMobile ? (
         <div className='contact-container-mobile'>
          <div className='col-1-2'>
@@ -38,7 +38,7 @@ const Contact = () => {
       ) : (
         <> 
 
-
+<div className='main-container'>
       <div className='grid-container-2'>
         <div className='col-1-2-wrapper'>
         <div className='col-1-2'>
@@ -64,9 +64,10 @@ const Contact = () => {
           </form>
         </div>
       </div>
+    </div>
       </>
       )}
-    </div>
+    </>
   );
 };
 
