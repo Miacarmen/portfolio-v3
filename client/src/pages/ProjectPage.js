@@ -9,7 +9,7 @@ const ProjectPage = () => {
   console.log(id);
   const data = linkData.find((data) => data.id === parseInt(id));
   console.log(data);
-  const { state } = useLocation(); // Use useLocation to access location state
+  // const { state } = useLocation();
 
   return (
     <div className='project-container'>
