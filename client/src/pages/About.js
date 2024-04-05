@@ -4,6 +4,8 @@ import '../styles/about.styles.css';
 
 const About = () => {
   return (
+    //   const isMobile = useMediaQuery({ maxWidth: 768 }); //
+    // const isTablet = useMediaQuery({ minWidth: 769, maxWidth: 1024 });
     <div className='about-container'>
       {/* {isMobile ? (
         <>
@@ -118,8 +120,13 @@ const About = () => {
       <div className='experience'>
         <ul id='exp-list'>
           <h3 className='about-header'>EXPERIENCE</h3>
-          <li>7 years experience in Graphic Design (Illustrator/InDesign/Photoshop/Sketch)</li>
-          <li>5 years experience Front-end Web Development (HTML/CSS/Javascript)</li>
+          <li>
+            7 years experience in Graphic Design
+            (Illustrator/InDesign/Photoshop/Sketch)
+          </li>
+          <li>
+            5 years experience Front-end Web Development (HTML/CSS/Javascript)
+          </li>
           <li>3 Years Experience React</li>
           <li>2 years experience Back-end Web Development</li>
           <li>3 Years experience UX/UI Design</li>
@@ -130,10 +137,17 @@ const About = () => {
         <ul id='skill-list'>
           <h3 className='about-header'>SKILLS</h3>
           <h3 className='sub-cat'>Design:</h3>
-          <li>Illustrator / Photoshop / InDesign / Animate / AfterEffects / Sketch / Procreate / Figma / Framer</li>
+          <li>
+            Illustrator / Photoshop / InDesign / Animate / AfterEffects / Sketch
+            / Procreate / Figma / Framer
+          </li>
           <h3 className='dev-cat'>Development:</h3>
-          <li>HTML / CSS / Javascript / JQuery / NodeJS / React / Redux / TailwindCSS / DaisyUI / Bootstrap / MaterialUI / Styled-Components / ExpressJS / MongoDB / Mongoose / GraphQL / Apollo / NoSQL / MySQL / Sequelize / AJAX / APIs / Heroku / Firebase / Netlify</li>
-          
+          <li>
+            HTML / CSS / Javascript / JQuery / NodeJS / React / Redux /
+            TailwindCSS / DaisyUI / Bootstrap / MaterialUI / Styled-Components /
+            ExpressJS / MongoDB / Mongoose / GraphQL / Apollo / NoSQL / MySQL /
+            Sequelize / AJAX / APIs / Heroku / Firebase / Netlify
+          </li>
         </ul>
       </div>
 
