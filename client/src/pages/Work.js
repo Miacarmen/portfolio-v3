@@ -30,6 +30,7 @@ const Work = () => {
     <div className='work-container'>
       {isMobile ? (
         <>
+        <div className='work-mobile-container'>
           <div className='col-1-4-mobile'>
             <h1>WORK</h1>
             <p className='work-tagline'>
@@ -37,7 +38,8 @@ const Work = () => {
               Development, and Product Branding
             </p>
           </div>
-          {/* <div className='col-2-4-mobile'>
+          
+          <div className='col-2-4'>
             {linkData.map((data) => (
               <Link
                 key={data.id}
@@ -48,7 +50,8 @@ const Work = () => {
                 <p className='link-desc'>{data.subtitle}</p>
               </Link>
             ))}
-          </div> */}
+          </div>
+        </div>
         </>
       ) : isTablet ? (
         // Tablet Content
