@@ -33,13 +33,13 @@ const Work = () => {
         <div className='work-mobile-container'>
           <div className='col-1-4-mobile'>
             <h1>WORK</h1>
-            <p className='work-tagline'>
+            <p className='work-tagline-mobile'>
               A showcase of my work, varying from Graphic Design, Web
               Development, and Product Branding
             </p>
           </div>
           
-          <div className='col-2-4'>
+          <div className='col-2-4-mobile'>
             {linkData.map((data) => (
               <Link
                 key={data.id}
