@@ -106,7 +106,7 @@
 /* Mobile styles */
 @media screen and (max-width: 768px) {
   .contact-container-mobile {
-    margin: 3em 2em 3em 2em;
+    margin: 6em 2em 3em 2em;
   }
   
   .contact-head {
