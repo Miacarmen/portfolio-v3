@@ -7,6 +7,7 @@ import About from './pages/About';
 import Work from './pages/Work';
 import ProjectPage from './pages/ProjectPage';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 import NavBar from './components/Navigation/NavBar';
 import Footer from './components/Footer/Footer';
 import linkData from './data/project-data.json';
@@ -27,6 +28,7 @@ function App() {
           <Route path='/work' element={<Work linkData={linkData} />} />
           <Route path='/work/:id' element={<ProjectPage />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
 
         <Footer />
