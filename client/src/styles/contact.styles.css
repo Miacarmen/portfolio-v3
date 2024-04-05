@@ -8,6 +8,7 @@
 .col-1-2-wrapper {
   margin: 0.5em 1em 0em 2em;
 }
+
 .col-1-2 {
   grid-column: span 2;
   display: flex;
@@ -15,6 +16,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  /* border: 1px solid red; */
 }
 
 .col-2-2 {
@@ -26,7 +28,7 @@
 }
 
 .contact-head {
-  line-height: 230px;
+  /* line-height: 230px; */
   font-size: 155px;
 }
 
@@ -99,3 +101,29 @@
     opacity: 1;
   }
 }
+
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .contact-container-mobile {
+    margin: 3em 2em 3em 2em;
+  }
+  
+  .contact-head {
+    font-size: 58px;
+  }
+
+  .contact-subhead {
+    font-size: 30px;
+  }
+
+  .col-2-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-form {
+    margin-bottom: 5em;
+  }
+  
+  }
