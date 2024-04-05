@@ -1,0 +1,151 @@
+.work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0em 0em 0em 1em;
+}
+
+.work-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.col-1-4 {
+  grid-column: span 1;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  margin: 3em 1em 0em 1em;
+}
+
+.col-2-4 {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(
+    100vh - 100px
+  ); /* Adjust height to fit available space, excluding header */
+  overflow: auto;
+  margin-left: 4em;
+  animation: fadeIn 3s;
+}
+
+/* Hide scrollbar */
+.col-2-4::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar width */
+}
+
+/* Create space for hidden scrollbar */
+.col-2-4 {
+  margin-right: -17px; /* Adjust based on the width of the scrollbar */
+}
+
+.work-tagline {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  display: flex;
+  align-self: flex-start;
+  padding: 0em 6em 0em 6em;
+  animation: slide-bottom 1s;
+}
+
+.link-title {
+  font-family: 'TAN-BUSTER';
+  font-size: 35px;
+  color: #ffcae0;
+}
+
+.link-title:hover {
+  color: #f8f8ff;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.custom-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 2em;
+  list-style-type: disc;
+  text-decoration: none;
+  color: #f8f8ff !important;
+}
+
+.custom-link:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+.link-desc {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.col-2-4 p::before {
+  display: inline-block;
+  width: 1em; /* space between bullet point and text */
+  margin-right: 0.5em; /* space between bullet point and text */
+}
+
+.col-3-4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .work-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+  }
+  .col-1-4-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .work-tagline {
+    font-size: 21px;
+  }
+}

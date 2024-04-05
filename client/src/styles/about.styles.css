@@ -1,0 +1,152 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0em 4em 0em 4em;
+  margin-top: 9em;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  padding: 0em 4em 0em 4em;
+  margin-bottom: 5em;
+}
+
+.col-1-3 {
+  grid-column: span 2;
+  margin-right: 4em;
+}
+
+.col-2-3 {
+  grid-column: span 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-head {
+  font-size: 175px;
+}
+
+.about-tagline {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 37px;
+  padding-bottom: 1em;
+  animation: fadeIn 1s;
+}
+.about-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 23px;
+  color: #f8f8ff;
+  animation: fadeIn 3s;
+}
+
+.about-img {
+animation: slide-bottom 1s;
+}
+
+.about-header {
+  font-family: 'TAN-BUSTER';
+  font-size: 50px;
+  color: #ffcae0;
+}
+
+.experience {
+  width: 70%;
+  padding: 0em 4em 4em 4em;
+}
+
+.experience ul {
+  /* list-style: none; */
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 23px;
+}
+
+#exp-list li {
+  padding-left: 1em;
+}
+
+.skills {
+  width: 70%;
+  padding: 0em 4em 4em 4em;
+}
+
+.skills ul {
+  /* list-style: none; */
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 23px;
+  margin-right: 10em;
+}
+
+#skill-list li {
+  padding-left: 1em;
+}
+
+.sub-cat {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.dev-cat {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 28px;
+  padding-top: 1em;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  padding: 0em 4em 4em 4em;
+}
+
+.resume-btn {
+  background-color: #ffcae0;
+  color: #362624;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  font-family: 'TAN-BUSTER', 'Lato', sans-serif;
+  padding: 2em 5em 2em 5em;
+  border-radius: 50px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-btn:hover {
+  background-color: #2a1f1e;
+  /* border: 1px solid #ffcae0; */
+  color: #ffcae0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
