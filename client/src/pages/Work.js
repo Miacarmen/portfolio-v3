@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { Link } from 'react-router-dom';
 import { BsArrowDownShort } from 'react-icons/bs';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 import '../styles/work.styles.css';
 import linkData from '../data/project-data.json';
 
-const Work = ({ linkData }) => {
+const Work = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 }); // For mobile devices
   const isTablet = useMediaQuery({ minWidth: 769, maxWidth: 1024 }); // For iPad devices
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 import '../styles/home.styles.css';
-import NavBar from '../components/Navigation/NavBar.js';
+// import NavBar from '../components/Navigation/NavBar.js';
 import HomeNav from '../components/Navigation/HomeNav.js';
 
 const Home = () => {
