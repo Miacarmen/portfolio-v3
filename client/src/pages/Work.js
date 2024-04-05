@@ -30,28 +30,38 @@ const Work = () => {
     <div className='work-container'>
       {isMobile ? (
         <>
-        <div className='work-mobile-container'>
-          <div className='col-1-4-mobile'>
-            <h1>WORK</h1>
-            <p className='work-tagline'>
-              A showcase of my work, varying from Graphic Design, Web
-              Development, and Product Branding
-            </p>
+          <div className='work-mobile-container'>
+            <div className='col-1-4-mobile'>
+              <h1>WORK</h1>
+              <p className='work-tagline-mobile'>
+                A showcase of my work, varying from Graphic Design, Web
+                Development, and Product Branding
+              </p>
+              {linkData.map((data) => (
+                <Link
+                  key={data.id}
+                  to={{ pathname: `/work/${data.id}` }}
+                  className='custom-link'
+                >
+                  <h2 className='link-title'>{data.title}</h2>
+                  <p className='link-desc'>{data.subtitle}</p>
+                </Link>
+              ))}
+            </div>
+
+            {/* <div className='col-2-4-mobile'>
+              {linkData.map((data) => (
+                <Link
+                  key={data.id}
+                  to={{ pathname: `/work/${data.id}` }}
+                  className='custom-link'
+                >
+                  <h2 className='link-title'>{data.title}</h2>
+                  <p className='link-desc'>{data.subtitle}</p>
+                </Link>
+              ))}
+            </div> */}
           </div>
-          
-          <div className='col-2-4-mobile'>
-            {linkData.map((data) => (
-              <Link
-                key={data.id}
-                to={{ pathname: `/work/${data.id}` }}
-                className='custom-link'
-              >
-                <h2 className='link-title'>{data.title}</h2>
-                <p className='link-desc'>{data.subtitle}</p>
-              </Link>
-            ))}
-          </div>
-        </div>
         </>
       ) : isTablet ? (
         // Tablet Content
@@ -60,7 +70,7 @@ const Work = () => {
         <>
           <div className='work-grid-container'>
             <div className='col-1-4'>
-              <h1>WORK</h1>
+              <h1 className='mobile-head'>WORK</h1>
               <p className='work-tagline'>
                 A showcase of my work, varying from Graphic Design, Web
                 Development, and Product Branding
