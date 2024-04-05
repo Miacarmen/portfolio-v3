@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "TRASH TALK",
+        "path": "'/work/1",
+        "subtitle": "Design & Development",
+        "desc": "Description About Project",
+        "imgURL": "https://placehold.jp/950x600.png"
+    },
+    {
+        "id": 2,
+        "title": "THE VOICE",
+        "path": "'/work/2",
+        "subtitle": "React Developement",
+        "desc": "Description About Project",
+        "imgURL": "https://placehold.jp/950x600.png"
+    },
+    {
+        "id": 3,
+        "title": "ALOHA AIR HVAC",
+        "path": "'/work/3",
+        "subtitle": "Design & Development",
+        "desc": "Description About Project",
+        "imgURL": "https://placehold.jp/950x600.png"
+    },
+    {
+        "id": 4,
+        "title": "ADVENTURE BOOK",
+        "path": "'/work/4",
+        "subtitle": "Full Stack React Development",
+        "desc": "Description About Project",
+        "imgURL": "https://placehold.jp/950x600.png"
+    },
+    {
+        "id": 5,
+        "title": "EMIT",
+        "path": "'/work/5",
+        "subtitle": "UX/UI Design",
+        "desc": "Description About Project",
+        "imgURL": "https://placehold.jp/950x600.png"
+    },
+    {
+        "id": 6,
+        "title": "CHUBBY SNACKS",
+        "path": "'/work/6",
+        "subtitle": "Graphic Design & Package Design",
+        "desc": "Description About Project",
+        "imgURL": "https://placehold.jp/950x600.png"
+    },
+    {
+        "id": 7,
+        "title": "CALIFORNIA POOL TABLES",
+        "path": "'/work/7",
+        "subtitle": "Design & Development",
+        "desc": "Description About Project",
+        "imgURL": "https://placehold.jp/950x600.png"
+    },
+    {
+        "id": 8,
+        "title": "Link 1",
+        "path": "Additional information for Link 1",
+        "subtitle": "Description for Link 1",
+        "desc": "Description for Link 1",
+        "imgURL": "https://placehold.jp/950x600.png"
+    }
+]
