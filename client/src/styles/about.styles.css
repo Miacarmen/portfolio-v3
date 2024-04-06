@@ -166,7 +166,6 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     padding: 5em 0em 0em 0em;
-    margin-bottom: 0em;
   }
 
   .col-2-1-mobile {
@@ -202,24 +201,20 @@
     font-size: 35px;
     font-family: 'TAN-BUSTER';
     color: #ffcae0;
-    /* margin-right: 1em; */
+    padding-bottom: 10px;
   }
 
   .experience-mobile {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     margin-bottom: 3em;
   }
 
-  #exp-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0em 3em 0em 3em;
+  #exp-list-mobile {
+    text-align: left;
   }
 
   #exp-list-mobile li {
@@ -227,8 +222,8 @@
     font-weight: 100;
     font-style: normal;
     font-size: 20px;
-    margin-left: 1.5em;
-    margin-bottom: 0.5em;
+    padding-bottom: 8px;
+    /* flex: 1 0 auto;  */
   }
 
   .skills-mobile {
@@ -237,16 +232,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* border: 1px solid red; */
   }
 
-  #skill-list-mobile li {
+  .skill-list-mobile {
+    text-align: center;
+  }
+
+  .skill-list-mobile li {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 20px;
-    margin-left: 1.5em;
-    margin-bottom: 0.5em;
+    margin-left: 0em 1.5em 0em 0.5em;
+    list-style: none;
   }
 
   .sub-cat {
@@ -267,7 +265,7 @@
   }
 
   .resume-btn {
-    padding: 1em 6em 1em 6em;
+    padding: 1em 5em 1em 5em;
     margin-bottom: 2em;
   }
 }
