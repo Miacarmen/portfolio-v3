@@ -108,7 +108,7 @@
   }
 
   .contact-head {
-    font-size: 55px;
+    font-size: 52px;
     line-height: 60px;
   }
 
@@ -146,6 +146,6 @@
   }
 
   .submit-btn {
-    padding: 7px 0px 7px 0px;
+    padding: 10px 0px 10px 0px;
   }
 }

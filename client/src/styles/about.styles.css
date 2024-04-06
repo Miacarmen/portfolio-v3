@@ -47,7 +47,7 @@
 }
 
 .about-img {
-animation: slide-bottom 1s;
+  animation: slide-bottom 1s;
 }
 
 .about-header {
@@ -151,16 +151,123 @@ animation: slide-bottom 1s;
   }
 }
 
-
 /* Mobile styles */
 @media screen and (max-width: 768px) {
-/* .grid-container-3 {
- 
-  
-} */
+  .about-container {
+    margin: 0;
+  }
 
-.about-head {
-  font-size: 50px;
-}
+  .about-main-container-mobile {
+    margin: 0;
+  }
 
+  .about-grid-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 5em 0em 0em 0em;
+    margin-bottom: 0em;
+  }
+
+  .col-2-1-mobile {
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-head {
+    font-size: 65px;
+  }
+
+  .about-content-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+
+  .about-tagline {
+    font-size: 28px;
+  }
+
+  .about-text {
+    font-size: 21px;
+  }
+
+  .about-header-mobile {
+    font-size: 35px;
+    font-family: 'TAN-BUSTER';
+    color: #ffcae0;
+    /* margin-right: 1em; */
+  }
+
+  .experience-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+
+  #exp-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 3em 0em 3em;
+  }
+
+  #exp-list-mobile li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .skills-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+
+  #skill-list-mobile li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .sub-cat {
+    font-weight: 300;
+    padding-bottom: 10px;
+  }
+
+  .dev-cat {
+    font-weight: 300;
+    padding-bottom: 10px;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0em 0em 4em 0em; */
+  }
+
+  .resume-btn {
+    padding: 1em 6em 1em 6em;
+    margin-bottom: 2em;
+  }
 }
