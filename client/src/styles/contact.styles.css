@@ -104,11 +104,11 @@
 /* Mobile styles */
 @media screen and (max-width: 768px) {
   .contact-container-mobile {
-    margin: 5em 0em 0em 3em;
+    margin: 6em 0em 0em 2em;
   }
 
   .contact-head {
-    font-size: 50px;
+    font-size: 55px;
     line-height: 60px;
   }
 
