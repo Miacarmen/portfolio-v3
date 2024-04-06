@@ -16,7 +16,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* border: 1px solid red; */
 }
 
 .col-2-2 {
@@ -105,19 +104,17 @@
 /* Mobile styles */
 @media screen and (max-width: 768px) {
   .contact-container-mobile {
-    margin: 5em 0em 0em 3em;
-    /* border: 1px solid red; */
+    margin: 4em 1em 0em 3em;
   }
 
   .contact-head {
     font-size: 50px;
-    /* border: 1px solid red; */
-    line-height: 90px;
+    line-height: 80px;
   }
 
   .contact-subhead {
     font-size: 25px;
-    padding: 0em 2em 1em 2em;
+    padding: 0em 1em 1em 1em;
   }
 
   .col-2-2 {
@@ -146,5 +143,9 @@
     padding: 5px;
     vertical-align: top; /* text alignment to top */
     font-family: 'Lato', sans-serif;
+  }
+
+  .submit-btn {
+    padding: 7px 0px 7px 0px;
   }
 }
