@@ -12,7 +12,7 @@ const Contact = () => {
         <div className='contact-container-mobile'>
          <div className='col-1-2'>
         <h1 className='contact-head'>CONTACT</h1>
-          <p className='contact-subhead'>Need a new website or branding for your product? 
+          <p className='contact-subhead'>Need a new website?
           <br /> Get in Touch!</p>
         </div>
         <div className='col-2-2'>
