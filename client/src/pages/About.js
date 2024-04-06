@@ -55,9 +55,9 @@ const About = () => {
 
           {/* </div> */}
           <div className='experience-mobile'>
-          <h3 className='about-header-mobile'>EXPERIENCE</h3>
+          {/* <h3 className='about-header-mobile'>EXPERIENCE</h3> */}
             <ul id='exp-list-mobile'>
-              
+            <h3 className='about-header-mobile'>EXPERIENCE</h3>
               <li>
                 7 years experience in Graphic Design
                 (Illustrator/InDesign/Photoshop/Sketch)
