@@ -104,24 +104,20 @@
 
 /* Mobile styles */
 @media screen and (max-width: 768px) {
-
-  /* .main-container {
-    display: fixed;
-    top: 2;
-    left: 0;
-  } */
-
   .contact-container-mobile {
-    margin: 0em 0em 0em 3em;
-    border: 1px solid red;
+    margin: 5em 0em 0em 3em;
+    /* border: 1px solid red; */
   }
 
   .contact-head {
     font-size: 48px;
+    /* border: 1px solid red; */
+    line-height: 100px;
   }
 
   .contact-subhead {
     font-size: 28px;
+    padding: 0em 1em 1em 0em;
   }
 
   .col-2-2 {
@@ -140,7 +136,7 @@
     border-radius: 5px;
     background-color: #f8f8ff;
   }
-  
+
   .contact-form textarea {
     width: 275px;
     height: 150px;
