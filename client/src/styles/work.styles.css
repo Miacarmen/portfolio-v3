@@ -185,6 +185,7 @@
     font-size: 28px;
     /* padding: 0em 0.7em 0em 0.7em; */
     margin-bottom: 1em 0.5em;
+    animation: slide-bottom 1s;
   }
 
   .link-title {
