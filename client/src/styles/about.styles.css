@@ -186,7 +186,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
   }
 
   .about-tagline {
@@ -202,7 +202,6 @@
     font-family: 'TAN-BUSTER';
     color: #ffcae0;
     padding-bottom: 10px;
-    /* border: 1px solid red; */
   }
 
   .experience-mobile {
@@ -213,11 +212,11 @@
     align-items: center;
     margin-bottom: 3em;
     text-align: center;
-    /* border: 1px red solid; */
   }
 
   #exp-list-mobile {
     text-align: left;
+    list-style-position: inside;
   }
 
   #exp-list-mobile li {
@@ -225,9 +224,8 @@
     font-weight: 100;
     font-style: normal;
     font-size: 20px;
-    padding-bottom: 8px;
-    flex: 1 0 auto; 
-    width: 90%;
+    padding-bottom: 20px;
+    padding-left: 20px;
   }
 
   .skills-mobile {

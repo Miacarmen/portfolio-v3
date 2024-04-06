@@ -55,16 +55,16 @@ const About = () => {
 
           {/* </div> */}
           <div className='experience-mobile'>
-          {/* <h3 className='about-header-mobile'>EXPERIENCE</h3> */}
+          <h3 className='about-header-mobile'>EXPERIENCE</h3>
             <ul id='exp-list-mobile'>
-            <h3 className='about-header-mobile'>EXPERIENCE</h3>
+            {/* <h3 className='about-header-mobile'>EXPERIENCE</h3> */}
               <li>
                 7 years experience in Graphic Design
-                (Illustrator/InDesign/Photoshop/Sketch)
+                (Illustrator / InDesign / Photoshop / Sketch)
               </li>
               <li>
                 5 years experience Front-end Web Development
-                (HTML/CSS/Javascript)
+                (HTML / CSS / Javascript)
               </li>
               <li>3 Years Experience React</li>
               <li>2 years experience Back-end Web Development</li>
