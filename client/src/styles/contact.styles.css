@@ -112,7 +112,7 @@
   } */
 
   .contact-container-mobile {
-    margin: 3em 3em 3em 3em;
+    margin: 0em 3em 3em 3em;
     border: 1px solid red;
   }
 
@@ -134,7 +134,7 @@
   }
 
   .contact-form input {
-    width: 280px;
+    width: 275px;
     height: 25px;
     padding: 5px;
     border-radius: 5px;
@@ -142,7 +142,7 @@
   }
   
   .contact-form textarea {
-    width: 280px;
+    width: 275px;
     height: 150px;
     margin-bottom: 12px;
     border-radius: 5px;
