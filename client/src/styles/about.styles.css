@@ -262,12 +262,11 @@
   .btn-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /* padding: 0em 0em 4em 0em; */
   }
 
   .resume-btn {
     padding: 1em 5em 1em 5em;
-    margin-bottom: 2em;
   }
 }

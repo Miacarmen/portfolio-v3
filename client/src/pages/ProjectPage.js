@@ -6,10 +6,7 @@ import linkData from '../data/project-data.json';
 
 const ProjectPage = () => {
   const { id } = useParams();
-  console.log(id);
   const data = linkData.find((data) => data.id === parseInt(id));
-  console.log(data);
-  // const { state } = useLocation();
 
   return (
     <div className='project-container'>
@@ -21,9 +18,11 @@ const ProjectPage = () => {
           </div>
         </div>
         <div className='p-content-container'>
+        {data.images.map((image, index) => (
           <div className='p-img-container'>
-            <img src={data.imgURL} alt={data.title}></img>
+            <img src={image} alt={`img ${index + 1}`}className='p-image'></img>
           </div>
+        ))}
           <div className='p-desc'>{data.desc}</div>
         </div>
       </>

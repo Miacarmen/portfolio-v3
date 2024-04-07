@@ -55,16 +55,15 @@ const About = () => {
 
           {/* </div> */}
           <div className='experience-mobile'>
-          <h3 className='about-header-mobile'>EXPERIENCE</h3>
+            <h3 className='about-header-mobile'>EXPERIENCE</h3>
             <ul id='exp-list-mobile'>
-            {/* <h3 className='about-header-mobile'>EXPERIENCE</h3> */}
               <li>
-                7 years experience in Graphic Design
-                (Illustrator / InDesign / Photoshop / Sketch)
+                7 years experience in Graphic Design (Illustrator / InDesign /
+                Photoshop / Sketch)
               </li>
               <li>
-                5 years experience Front-end Web Development
-                (HTML / CSS / Javascript)
+                5 years experience Front-end Web Development (HTML / CSS /
+                Javascript)
               </li>
               <li>3 Years Experience React</li>
               <li>2 years experience Back-end Web Development</li>
@@ -73,18 +72,16 @@ const About = () => {
           </div>
 
           <div className='skills-mobile'>
-          <h3 className='about-header-mobile'>SKILLS</h3>
-          <h3 className='sub-cat'>Design:</h3>
+            <h3 className='about-header-mobile'>SKILLS</h3>
+            <h3 className='sub-cat'>Design:</h3>
             <ul class='skill-list-mobile'>
-              {/* <h3 className='about-header-mobile'>SKILLS</h3> */}
-              {/* <h3 className='sub-cat'>Design:</h3> */}
               <li>
                 Illustrator / Photoshop / InDesign / Animate / AfterEffects /
                 Sketch / Procreate / Figma / Framer
               </li>
-              </ul>
-              <h3 className='dev-cat'>Development:</h3>
-              <ul class='skill-list-mobile'>
+            </ul>
+            <h3 className='dev-cat'>Development:</h3>
+            <ul class='skill-list-mobile'>
               <li>
                 HTML / CSS / Javascript / JQuery / NodeJS / React / Redux /
                 TailwindCSS / DaisyUI / Bootstrap / MaterialUI /
