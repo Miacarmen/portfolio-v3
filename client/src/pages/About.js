@@ -74,14 +74,14 @@ const About = () => {
           <div className='skills-mobile'>
             <h3 className='about-header-mobile'>SKILLS</h3>
             <h3 className='sub-cat'>Design:</h3>
-            <ul class='skill-list-mobile'>
+            <ul className='skill-list-mobile'>
               <li>
                 Illustrator / Photoshop / InDesign / Animate / AfterEffects /
                 Sketch / Procreate / Figma / Framer
               </li>
             </ul>
             <h3 className='dev-cat'>Development:</h3>
-            <ul class='skill-list-mobile'>
+            <ul className='skill-list-mobile'>
               <li>
                 HTML / CSS / Javascript / JQuery / NodeJS / React / Redux /
                 TailwindCSS / DaisyUI / Bootstrap / MaterialUI /

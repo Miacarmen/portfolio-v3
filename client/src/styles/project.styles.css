@@ -1,5 +1,5 @@
 .project-container {
-  padding: 0em 4em 4em 4em;
+  padding: 0em 4em 6em 4em;
 }
 
 .project-content {
@@ -18,10 +18,16 @@
   align-items: center;
 }
 
+.p-subtitle {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  animation: slide-bottom 1s;
+}
 
 .p-img-container {
 position: relative;
-
+margin-bottom: 2em;
 }
 
 .p-img-container img {
@@ -29,6 +35,13 @@ position: relative;
   width: 100%;
 }
 
+.p-desc {
+  padding-top: 2em;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
 
 /* Mobile styles */
 @media screen and (max-width: 768px) {
@@ -47,9 +60,9 @@ position: relative;
   font-size: 23px;
 }
 
-.p-img-container {
+/* .p-img-container {
   padding-bottom: 1em;
-}
+} */
   
 .p-image {
   height: 270px;

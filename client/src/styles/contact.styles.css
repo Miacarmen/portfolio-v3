@@ -85,9 +85,25 @@
 }
 
 .contact-form button:hover {
-  background-color: #2a1f1e;
-  /* border: 1px solid #ffcae0; */
+  background-color: #44302d;
+  border: 1px solid #382725;
   color: #ffcae0;
+}
+
+.thank-you-message {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 7px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.1s ease, transform 0.1s ease;
+}
+
+.thank-you-message.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @keyframes slide-bottom {
@@ -104,7 +120,7 @@
 /* Mobile styles */
 @media screen and (max-width: 768px) {
   .contact-container-mobile {
-    margin: 5.2em 0em 0em 2em;
+    margin: 5.2em 0em 0em 1em;
   }
 
   .contact-head {
