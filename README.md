@@ -6,9 +6,6 @@
 - [Deployed Link](#deployed)
 - [Tools](#tools)
 - [Dependencies](#dependencies)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Description
 
@@ -17,7 +14,7 @@ Updated 2024 portfolio made using React, showcasing a variety of my work from UX
 
 ## Deployed Site
 
-[See Live Site Here](https://mia-carmen-portfolio.netlify.app/) 
+[See Live Site Here](https://miadcarmen.com) 
 deployed with - [Netlify](https://www.netlify.com/?utm_medium=paid_search&utm_source=google&utm_campaign=12755510808&utm_term=deploy%20react%20app)
 
 
