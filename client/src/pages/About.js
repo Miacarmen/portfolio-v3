@@ -10,25 +10,28 @@ const About = () => {
     <div className='about-container'>
       {isMobile ? (
         <>
-          {/* <div className='about-main-container-mobile'> */}
-          <div className='about-grid-mobile'>
-            <div className='col-2-1-mobile'>
-              <h1 className='about-head'>ABOUT</h1>
+          <div className='about-main-container-mobile'>
+            <div className='about-header-mobile'>
+              <h1 className='about-header'>ABOUT</h1>
             </div>
-            {/* <div className='col-2-2-mobile'>
-              <img
-                src='https://placehold.jp/160x200.png'
-                alt='Mia Carmen'
-                className='about-img'
-              />
-            </div> */}
+            <div className='about-header-content-mobile'>
+              <div className='col-1-2-mobile'>
+                <h2 className='about-tagline'>
+                  I’m Mia. A Developer and Designer
+                  <br />
+                  based in Los Angeles, CA.
+                </h2>
+              </div>
+              <div className='col-2-2-mobile'>
+                <img
+                  src='https://placehold.jp/160x200.png'
+                  alt='Mia Carmen'
+                  className='about-img'
+                />
+              </div>
+            </div>
           </div>
           <div className='about-content-mobile'>
-            <h2 className='about-tagline'>
-              I’m Mia. A Developer and Designer
-              <br />
-              based in Los Angeles, CA.
-            </h2>
             <p className='about-text'>
               Having always had a passion for art and technology, I have found
               web development to be the most rewarding way to combine my love
@@ -53,9 +56,8 @@ const About = () => {
             </p>
           </div>
 
-          {/* </div> */}
           <div className='experience-mobile'>
-            <h3 className='about-header-mobile'>EXPERIENCE</h3>
+            <h3 className='about-subheader-mobile'>EXPERIENCE</h3>
             <ul id='exp-list-mobile'>
               <li>
                 7 years experience in Graphic Design (Illustrator / InDesign /
@@ -72,7 +74,7 @@ const About = () => {
           </div>
 
           <div className='skills-mobile'>
-            <h3 className='about-header-mobile'>SKILLS</h3>
+            <h3 className='about-subheader-mobile'>SKILLS</h3>
             <h3 className='sub-cat'>Design:</h3>
             <ul className='skill-list-mobile'>
               <li>
@@ -83,11 +85,18 @@ const About = () => {
             <h3 className='dev-cat'>Development:</h3>
             <ul className='skill-list-mobile'>
               <li>
-                HTML / CSS / Javascript / JQuery / NodeJS / React / Redux /
-                TailwindCSS / DaisyUI / Bootstrap / MaterialUI /
-                Styled-Components / ExpressJS / MongoDB / Mongoose / GraphQL /
-                Apollo / NoSQL / MySQL / Sequelize / AJAX / APIs / Heroku /
-                Firebase / Netlify
+                HTML <span>/</span> CSS <span>/</span> Javascript <span>/</span>{' '}
+                JQuery <span>/</span> NodeJS <span>/</span> React <span>/</span>{' '}
+                Redux <span>/</span>
+                TailwindCSS <span>/</span> DaisyUI <span>/</span> Bootstrap{' '}
+                <span>/</span> MaterialUI <span>/</span>
+                Styled-Components <span>/</span> ExpressJS <span>/</span>{' '}
+                MongoDB <span>/</span> Mongoose <span>/</span> GraphQL{' '}
+                <span>/</span>
+                Apollo <span>/</span> NoSQL <span>/</span> MySQL <span>/</span>{' '}
+                Sequelize <span>/</span> AJAX <span>/</span> APIs <span>/</span>{' '}
+                Heroku <span>/</span>
+                Firebase <span>/</span> Netlify
               </li>
             </ul>
           </div>
