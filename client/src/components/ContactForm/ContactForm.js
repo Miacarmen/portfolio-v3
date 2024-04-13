@@ -15,13 +15,13 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-        // 'service_4xmxu8h',
-        // 'template_khztqjk',
+        // process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        // process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        'service_4xmxu8h',
+        'template_khztqjk',
         e.target,
-        // 'IkePfpVYGM7-q3VeV'
-        process.env.REACT_APP_EMAILJS_USER_ID
+        'IkePfpVYGM7-q3VeV'
+        // process.env.REACT_APP_EMAILJS_USER_ID
       )
       .then((result) => {
         console.log('Email successfully sent!', result.text);
