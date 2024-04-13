@@ -9,9 +9,18 @@ const ContactForm = () => {
   const isTablet = useMediaQuery({ minWidth: 769, maxWidth: 1024 }); // For iPad devices
 
   const [emailSent, setEmailSent] = useState(false);
+  // const [emailError, setEmailError] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    // Validate email format
+    // const email = e.target.user_email.value.trim();
+    // const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    // if (!emailPattern.test(email)) {
+    //   setEmailError('Please enter a valid email address');
+    //   return;
+    // }
 
     emailjs
       .sendForm(
@@ -50,16 +59,17 @@ const ContactForm = () => {
 
               <label for='email'>Email:</label>
               <input type='email' id='email' name='email' required />
-
+              {/* {emailError && <p>{emailError}</p>} */}
               <label for='message'>Message:</label>
               <textarea type='text' id='message' name='message' required />
 
               <button className='submit-btn' type='submit'>
                 Send
               </button>
-              <p className={`thank-you-message ${emailSent ? 'show' : ''}`}>Thank you! Your Email Has Been Sent!</p>
+              <p className={`thank-you-message ${emailSent ? 'show' : ''}`}>
+                Thank you! Your Email Has Been Sent!
+              </p>
             </form>
-            
           </div>
         </div>
       ) : isTablet ? (
@@ -91,7 +101,9 @@ const ContactForm = () => {
                   <button className='submit-btn' type='submit'>
                     Send
                   </button>
-                  <p className={`thank-you-message ${emailSent ? 'show' : ''}`}>Thank you! Your Email Has Been Sent!</p>
+                  <p className={`thank-you-message ${emailSent ? 'show' : ''}`}>
+                    Thank you! Your Email Has Been Sent!
+                  </p>
                 </form>
               </div>
             </div>
