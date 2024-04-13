@@ -42,7 +42,7 @@ const About = () => {
               I love all things digital design because they allow me to be able
               to create things that have a purpose and solve real problems,
               whether it’s through tools like Illustrator or Sketch, or
-              Languages like HTML/CSS and Javascript. It’s the utilized
+              Languages like HTML / CSS and Javascript. It’s the utilized
               combination and understanding of both digital worlds that allows
               me to create intuitive and dynamic user experiences and solutions
               that help people, from a fresh and unique perspective.
@@ -60,7 +60,7 @@ const About = () => {
             <h3 className='about-subheader-mobile'>EXPERIENCE</h3>
             <ul id='exp-list-mobile'>
               <li>
-                7 years experience in Graphic Design (Illustrator / InDesign /
+                6 years experience in Graphic Design (Illustrator / InDesign /
                 Photoshop / Sketch)
               </li>
               <li>
@@ -127,7 +127,7 @@ const About = () => {
                 I love all things digital design because they allow me to be
                 able to create things that have a purpose and solve real
                 problems, whether it’s through tools like Illustrator or Sketch,
-                or Languages like HTML/CSS and Javascript. It’s the utilized
+                or Languages like HTML / CSS and Javascript. It’s the utilized
                 combination and understanding of both digital worlds that allows
                 me to create intuitive and dynamic user experiences and
                 solutions that help people, from a fresh and unique perspective.
@@ -153,7 +153,7 @@ const About = () => {
             <ul id='exp-list'>
               <h3 className='about-header'>EXPERIENCE</h3>
               <li>
-                7 years experience in Graphic Design
+                6 years experience in Graphic Design
                 (Illustrator/InDesign/Photoshop/Sketch)
               </li>
               <li>
