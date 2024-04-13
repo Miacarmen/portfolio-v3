@@ -35,6 +35,11 @@ const ContactForm = () => {
       .then((result) => {
         console.log('Email successfully sent!', result.text);
         setEmailSent(true);
+
+        // Use setTimeout to hide the message after 3 seconds
+        setTimeout(() => {
+          setEmailSent('');
+        }, 5000);
       })
       .catch((error) => {
         console.error('Email sending failed:', error.text);
