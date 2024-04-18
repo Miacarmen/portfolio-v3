@@ -79,14 +79,10 @@ margin-bottom: 2em;
   font-weight: 100;
   font-size: 23px;
 }
-
-/* .p-img-container {
-  padding-bottom: 1em;
-} */
   
 .p-image {
   height: 100%;
-  width: 250px;
+  width: 275px;
 }
 
 .p-desc {
