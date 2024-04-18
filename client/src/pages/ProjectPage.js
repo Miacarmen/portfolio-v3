@@ -18,12 +18,21 @@ const ProjectPage = () => {
           </div>
         </div>
         <div className='p-content-container'>
-        {data.images.map((image, index) => (
-          <div className='p-img-container'>
-            <img src={image} alt={`img ${index + 1}`}className='p-image'></img>
-          </div>
-        ))}
+          {data.images.map((image, index) => (
+            <div className='p-img-container'>
+              <img
+                src={image}
+                alt={`img ${index + 1}`}
+                className='p-image'
+              ></img>
+            </div>
+          ))}
           <div className='p-desc'>{data.desc}</div>
+          <div className='p-link'>
+            <a href={data.link} target='_blank' rel='noreferrer'>
+              <button className='link-btn'>See More</button>
+            </a>
+          </div>
         </div>
       </>
     </div>
