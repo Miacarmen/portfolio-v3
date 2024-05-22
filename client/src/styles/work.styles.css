@@ -133,7 +133,7 @@
     align-items: center;
     text-align: center;
     min-height: 0;
-    padding: 0em;
+    
   }
 
   .work-mobile-container {
@@ -142,6 +142,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-right: 3em;
   }
 
   .col-1-4-mobile {
