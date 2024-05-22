@@ -37,16 +37,6 @@ const Work = () => {
                 A showcase of my work, varying from Graphic Design, Web
                 Development, and Product Branding
               </p>
-              {/* {linkData.map((data) => (
-                <Link
-                  key={data.id}
-                  to={{ pathname: `/work/${data.id}` }}
-                  className='custom-link'
-                >
-                  <h2 className='link-title'>{data.title}</h2>
-                  <p className='link-desc'>{data.subtitle}</p>
-                </Link>
-              ))} */}
             </div>
 
             <div className='col-2-4-mobile'>
