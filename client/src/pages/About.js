@@ -1,10 +1,34 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import '../styles/about.styles.css';
+import pdfFile from '../assets/Mia-Carmen-Front-End-Dev.pdf';
 
 const About = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
   const isTablet = useMediaQuery({ minWidth: 769, maxWidth: 1024 });
+
+  // const handleDownload = () => {
+  // const pdfFilePath = '../assets/Mia-Carmen-Front-End-Dev-Resume.pdf';
+
+  // blob object represents a file-like object of immutable, raw data
+  // const blob = new Blob([pdfFilePath], { type: 'application/pdf' });
+
+  // Create link element
+  // const link = document.createElement('a');
+  // link.href = URL.createObjectURL(blob);
+
+  // Set the download attribute to the filename
+  // link.download = pdfFilePath;
+
+  // Append link to the body
+  // document.body.appendChild(link);
+
+  // Trigger the click event
+  // link.click();
+
+  // Remove the element
+  // document.body.removeChild(link);
+  // };
 
   return (
     <div className='about-container'>
@@ -102,7 +126,9 @@ const About = () => {
           </div>
 
           <div className='btn-container'>
-            <button className='resume-btn'> Resume</button>
+            <a href={pdfFile} target='_blank' rel='noreferrer'>
+              <button className='resume-btn'> Resume</button>
+            </a>
           </div>
         </>
       ) : isTablet ? (
@@ -186,7 +212,9 @@ const About = () => {
           </div>
 
           <div className='btn-container'>
-            <button className='resume-btn'> Resume</button>
+            <a href={pdfFile} target='_blank' rel='noreferrer'>
+              <button className='resume-btn'> Resume</button>
+            </a>
           </div>
         </>
       )}

@@ -39,7 +39,9 @@ margin-bottom: 2em;
 }
 
 .p-desc {
-  padding-top: 2em;
+  /* padding-top: 2em; */
+  padding: 1em 0em 1em 0em;
+  width: 1000px;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
@@ -87,7 +89,8 @@ margin-bottom: 2em;
 }
 
 .p-desc {
-  padding-bottom: 1em;
+  padding: 0;
+  width: 290px;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 100;

@@ -3,6 +3,7 @@
   flex-direction: column;
   padding: 0em 4em 0em 4em;
   margin-top: 9em;
+  font-family: 'Lato', sans-serif;
 }
 
 .grid-container-3 {
@@ -30,15 +31,14 @@
 }
 
 .about-tagline {
-  font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 37px;
   padding-bottom: 1em;
   animation: fadeIn 1s;
 }
+
 .about-text {
-  font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 23px;
@@ -62,8 +62,6 @@
 }
 
 .experience ul {
-  /* list-style: none; */
-  font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 23px;
@@ -80,16 +78,13 @@
 
 .skills li {
   list-style: none;
-  font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 23px;
   margin-right: 10em;
 }
 
-
 .sub-cat {
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 28px;
@@ -97,7 +92,6 @@
 }
 
 .dev-cat {
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 28px;
@@ -165,7 +159,6 @@
     text-align: center;
     padding: 5.2em 0em 0em 0em;
   }
-
 
   .about-header {
     font-size: 65px;

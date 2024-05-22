@@ -4,7 +4,7 @@
         "title": "TRASH TALK",
         "path": "'/work/1",
         "subtitle": "Design & Development",
-        "desc": "Description About Project, Description About Project, Description About Project",
+        "desc": "Check out my MVP created on WIX, a social media hub for reality TV lovers. Trash Talk allows users to select shows, seasons, and episodes to engage in spoiler-free conversations with fellow fans,  perfect for those catching up on their favorite shows. Discuss plot twists, characters, and more in a dedicated space tailored for every episode.",
         "link": "https://www.realitytrashtalk.tv/",
         "images": [
             "https://i.ibb.co/yPT884P/screencapture-realitytrashtalk-tv-2024-04-18-13-55-51-1.png"
@@ -15,9 +15,10 @@
         "title": "THE VOICE",
         "path": "'/work/2",
         "subtitle": "React Developement",
-        "desc": "Description About Project",
+        "desc": "Website for a book launch, created with React and deployed with Network Solutions.",
+        "link": "https://www.auriclebooks.com/",
         "images": [
-            "https://placehold.jp/950x600.png"
+            "https://i.ibb.co/h1BYYFH/screencapture-auriclebooks-2024-04-22-15-25-54.png"
         ]
     },
     {
@@ -25,9 +26,10 @@
         "title": "ALOHA AIR HVAC",
         "path": "'/work/3",
         "subtitle": "Design & Development",
-        "desc": "Description About Project",
+        "desc": "Website for a Southern California based HVAC company. Created on Squarespace and using some custom CSS.",
+        "link": "https://www.alohaairconditioningandheating.com/",
         "images": [
-            "https://placehold.jp/950x600.png"
+            "https://i.ibb.co/VMzPwsb/screencapture-alohaairconditioningandheating-2024-05-22-15-49-46.pngå"
         ]
     },
     {
@@ -66,16 +68,6 @@
         "path": "'/work/7",
         "subtitle": "Design & Development",
         "desc": "Description About Project",
-        "images": [
-            "https://placehold.jp/950x600.png"
-        ]
-    },
-    {
-        "id": 8,
-        "title": "Link 1",
-        "path": "Additional information for Link 1",
-        "subtitle": "Description for Link 1",
-        "desc": "Description for Link 1",
         "images": [
             "https://placehold.jp/950x600.png"
         ]
