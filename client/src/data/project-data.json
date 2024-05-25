@@ -6,6 +6,7 @@
         "subtitle": "Design & Development",
         "desc": "Check out my MVP created on WIX, a social media hub for reality TV lovers. Trash Talk allows users to select shows, seasons, and episodes to engage in spoiler-free conversations with fellow fans,  perfect for those catching up on their favorite shows. Discuss plot twists, characters, and more in a dedicated space tailored for every episode.",
         "link": "https://www.realitytrashtalk.tv/",
+        "btnText": "Visit Site",
         "images": [
             "https://i.ibb.co/yPT884P/screencapture-realitytrashtalk-tv-2024-04-18-13-55-51-1.png"
         ]
@@ -17,6 +18,7 @@
         "subtitle": "React Developement",
         "desc": "Website for a book launch, created with React and deployed with Network Solutions.",
         "link": "https://www.auriclebooks.com/",
+        "btnText": "Visit Site",
         "images": [
             "https://i.ibb.co/h1BYYFH/screencapture-auriclebooks-2024-04-22-15-25-54.png"
         ]
@@ -28,6 +30,7 @@
         "subtitle": "Design & Development",
         "desc": "Website for a Southern California based HVAC company. Created on Squarespace and using some custom CSS.",
         "link": "https://www.alohaairconditioningandheating.com/",
+        "btnText": "Visit Site",
         "images": [
             "https://i.ibb.co/VMzPwsb/screencapture-alohaairconditioningandheating-2024-05-22-15-49-46.pngå"
         ]
@@ -38,6 +41,7 @@
         "path": "'/work/4",
         "subtitle": "Full Stack React Development",
         "desc": "Description About Project",
+        "btnText": "Visit Site",
         "images": [
             "https://placehold.jp/950x600.png"
         ]
@@ -47,9 +51,12 @@
         "title": "EMIT",
         "path": "'/work/5",
         "subtitle": "UX/UI Design",
-        "desc": "Description About Project",
+        "desc": "UX/UI design for a mobile app that allows users to find and connect with other creatives in their immediate area. Created in Figma. App is still in development.",
+        "link": "https://www.figma.com/file/zFTV5D1KbmX7PrF1qsTmXA/EMIT?type=design&node-id=0%3A1&mode=dev&t=6HoGkiw1kIYHgt2i-1",
+        "btnText": "View Prototype",
         "images": [
-            "https://placehold.jp/950x600.png"
+            "https://i.ibb.co/bXYK65j/The-WKND-i-Phone-Mockup-1.png",
+            "https://i.ibb.co/gV2yfNg/Screenshot-2024-05-24-at-5-09-09-PM.png"
         ]
     },
     {
@@ -58,6 +65,7 @@
         "path": "'/work/6",
         "subtitle": "Graphic Design & Package Design",
         "desc": "Description About Project",
+        "btnText": "Visit Site",
         "images": [
             "https://placehold.jp/950x600.png"
         ]
@@ -68,6 +76,7 @@
         "path": "'/work/7",
         "subtitle": "Design & Development",
         "desc": "Description About Project",
+        "btnText": "Visit Site",
         "images": [
             "https://placehold.jp/950x600.png"
         ]

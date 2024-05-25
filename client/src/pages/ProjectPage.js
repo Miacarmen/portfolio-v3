@@ -30,7 +30,7 @@ const ProjectPage = () => {
           <div className='p-desc'>{data.desc}</div>
           <div className='p-link'>
             <a href={data.link} target='_blank' rel='noreferrer'>
-              <button className='link-btn'>Visit Site</button>
+              <button className='link-btn'>{data.btnText}</button>
             </a>
           </div>
         </div>
