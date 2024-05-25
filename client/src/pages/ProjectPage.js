@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 
 import '../styles/project.styles.css';
 import linkData from '../data/project-data.json';
 
 const ProjectPage = () => {
+  // const { id } = useParams();
+  // const data = linkData.find((data) => data.id === parseInt(id));
   const { id } = useParams();
-  const data = linkData.find((data) => data.id === parseInt(id));
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    const projectData = linkData.find((item) => item.id === parseInt(id));
+    setData(projectData);
+  }, [id]);
+
+  if (!data) return <div>Loading...</div>;
 
   return (
     <div className='project-container'>
