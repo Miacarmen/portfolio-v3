@@ -11,7 +11,9 @@ const ProjectPage = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
+    console.log("Fetching data for id:", id);
     const projectData = linkData.find((item) => item.id === parseInt(id));
+    console.log("Fetched data:", projectData);
     setData(projectData);
   }, [id]);
 
