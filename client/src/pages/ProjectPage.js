@@ -28,7 +28,7 @@ const ProjectPage = () => {
         </div>
         <div className='p-content-container'>
           {data.images.map((image, index) => (
-            <div className='p-img-container'>
+            <div key={index} className='p-img-container'>
               <img
                 src={image}
                 alt={`img ${index + 1}`}
