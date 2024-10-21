@@ -46,13 +46,13 @@ const About = () => {
                   based in Los Angeles, CA.
                 </h2>
               </div>
-              <div className='col-2-2-mobile'>
+              {/* <div className='col-2-2-mobile'>
                 <img
                   src='https://placehold.jp/160x200.png'
                   alt='Mia Carmen'
                   className='about-img'
                 />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='about-content-mobile'>
@@ -167,13 +167,13 @@ const About = () => {
               </p>
             </div>
 
-            <div className='col-2-3'>
+            {/* <div className='col-2-3'>
               <img
                 src='https://placehold.jp/360x600.png'
                 alt='Mia Carmen'
                 className='about-img'
               />
-            </div>
+            </div> */}
           </div>
           <div className='experience'>
             <ul id='exp-list'>
