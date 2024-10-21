@@ -19,6 +19,13 @@
   margin: 0em 0em 0em 1em;
 }
 
+.p-title {
+  font-family: 'TAN-BUSTER', 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  /* animation: slide-bottom 1s; */
+}
+
 .p-subtitle {
   font-family: 'Lato', sans-serif;
   font-weight: 100;

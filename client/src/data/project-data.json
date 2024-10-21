@@ -1,6 +1,31 @@
 [
+  
     {
         "id": 1,
+        "title": "GRAND TETON DIAGNOSTICS",
+        "path": "'/work/2",
+        "subtitle": "React Developement & Design",
+        "desc": "React Website for a PCR diagnostics company.",
+        "link": "https://gtdxlabs.com/",
+        "btnText": "Visit Site",
+        "images": [
+            "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551309/screencapture-gtdxlabs-2024-09-24-14_33_46_xt7a5x.png"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "ALOHA AIR HVAC",
+        "path": "'/work/3",
+        "subtitle": "Design & Development",
+        "desc": "Website for a Southern California based HVAC company. Created on Squarespace and using custom CSS.",
+        "link": "https://www.alohaairconditioningandheating.com/",
+        "btnText": "Visit Site",
+        "images": [
+            "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551292/screencapture-alohaairconditioningandheating-2024-09-24-15_09_01_tugsqz.png"
+        ]
+    },
+    {
+        "id": 3,
         "title": "TRASH TALK",
         "path": "'/work/1",
         "subtitle": "Design & Development",
@@ -12,44 +37,45 @@
         ]
     },
     {
-        "id": 2,
+        "id": 4,
+        "title": "SIERRA GENOMICS",
+        "path": "'/work/4",
+        "subtitle": "React Development",
+        "desc": "Website for a genomics company, created with React and deployed with Network Solutions.",
+        "link": "https://www.sierragenomics.com/",
+        "btnText": "Visit Site",
+        "images": [
+            "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551277/screencapture-sierra-genomics-2024-09-24-15_09_36_gusglo.png"
+        ]
+    },
+    {
+        "id": 5,
         "title": "THE VOICE",
-        "path": "'/work/2",
+        "path": "'/work/5",
         "subtitle": "React Developement",
         "desc": "Website for a book launch, created with React and deployed with Network Solutions.",
         "link": "https://www.auriclebooks.com/",
         "btnText": "Visit Site",
         "images": [
-            "https://i.ibb.co/h1BYYFH/screencapture-auriclebooks-2024-04-22-15-25-54.png"
+            "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729552186/screencapture-auriclebooks-2024-10-21-16_06_18_h74swv.webp"
         ]
     },
     {
-        "id": 3,
-        "title": "ALOHA AIR HVAC",
-        "path": "'/work/3",
-        "subtitle": "Design & Development",
-        "desc": "Website for a Southern California based HVAC company. Created on Squarespace and using custom CSS.",
-        "link": "https://www.alohaairconditioningandheating.com/",
+        "id": 6,
+        "title": "CASE HELPERS",
+        "path": "'/work/6",
+        "subtitle": "Design and Development",
+        "desc": "Website created on Wix for an AI case management tool.",
+        "link": "https://www.casehelpersai.com/",
         "btnText": "Visit Site",
         "images": [
-            "https://i.ibb.co/VMzPwsb/screencapture-alohaairconditioningandheating-2024-05-22-15-49-46.pngå"
+            "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551256/screencapture-casehelpersai-2024-10-21-15_50_04_dhmlhg.png"
         ]
     },
     {
-        "id": 4,
-        "title": "ADVENTURE BOOK",
-        "path": "'/work/4",
-        "subtitle": "Full Stack React Development",
-        "desc": "Description About Project",
-        "btnText": "Visit Site",
-        "images": [
-            "https://placehold.jp/950x600.png"
-        ]
-    },
-    {
-        "id": 5,
+        "id": 7,
         "title": "EMIT",
-        "path": "'/work/5",
+        "path": "'/work/7",
         "subtitle": "UX/UI Design",
         "desc": "UX/UI design for a mobile app that allows users to find and connect with other creatives in their immediate area. Created in Figma. App is still in development.",
         "link": "https://www.figma.com/file/zFTV5D1KbmX7PrF1qsTmXA/EMIT?type=design&node-id=0%3A1&mode=dev&t=6HoGkiw1kIYHgt2i-1",
@@ -60,23 +86,11 @@
         ]
     },
     {
-        "id": 6,
-        "title": "CHUBBY SNACKS",
-        "path": "'/work/6",
-        "subtitle": "Graphic Design & Package Design",
-        "desc": "Description About Project",
-        "btnText": "Visit Site",
-        "images": [
-            "https://placehold.jp/950x600.png"
-        ]
-    },
-    {
-        "id": 7,
-        "title": "CA POOL TABLES",
-        "path": "'/work/7",
-        "subtitle": "Design & Development",
-        "desc": "Description About Project",
-        "btnText": "Visit Site",
+        "id": 8,
+        "title": "L&L Diagnostics",
+        "path": "'/work/8",
+        "subtitle": "Graphic Design",
+        "desc": "Flyers for a PCR diagnostics company.",
         "images": [
             "https://placehold.jp/950x600.png"
         ]
