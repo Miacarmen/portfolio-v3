@@ -35,6 +35,7 @@ const ProjectPage = () => {
                 src={image}
                 alt={`img ${index + 1}`}
                 className='p-image'
+                loading='lazy'
               ></img>
             </div>
           ))}
