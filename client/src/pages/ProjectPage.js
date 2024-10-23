@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 import '../styles/project.styles.css';
@@ -11,9 +11,9 @@ const ProjectPage = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    console.log("Fetching data for id:", id);
+    console.log('Fetching data for id:', id);
     const projectData = linkData.find((item) => item.id === parseInt(id));
-    console.log("Fetched data:", projectData);
+    console.log('Fetched data:', projectData);
     setData(projectData);
   }, [id]);
 
@@ -39,6 +39,14 @@ const ProjectPage = () => {
             </div>
           ))}
           <div className='p-desc'>{data.desc}</div>
+          <div className='p-tools-container'>
+          <h3>Tools Used:</h3>
+          <div className='p-tools'>
+            {data.tools.map((tool, index) => (
+              <div key={index}>{tool}</div>
+            ))}
+          </div>
+          </div>
           <div className='p-link'>
             <a href={data.link} target='_blank' rel='noreferrer'>
               <button className='link-btn'>{data.btnText}</button>

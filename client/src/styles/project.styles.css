@@ -56,6 +56,36 @@
   font-size: 30px;
 }
 
+.p-tools-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.p-tools-container h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.p-tools {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; /* Ensures items wrap to the next line if needed */
+  gap: 1rem; /* Adds spacing between items */
+  padding: 1em 0; /* Optional padding for spacing */
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #ffcae0;
+}
+
+.p-tools div {
+  padding: 0.5em 1em; /* Optional padding around each tool */
+  border: 1px solid #ffcae0; /* Optional border */
+  border-radius: 4px; /* Optional rounded corners */
+}
+
 .p-link {
   padding-top: 3em;
 }
@@ -78,6 +108,15 @@
   background-color: #362624;
   border: 1px solid #2c1f1d;
   color: #ffcae0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Mobile styles */

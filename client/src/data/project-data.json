@@ -4,8 +4,9 @@
         "id": 1,
         "title": "GRAND TETON DIAGNOSTICS",
         "path": "'/work/2",
-        "subtitle": "React Developement & Design",
-        "desc": "React Website for a PCR diagnostics company.",
+        "subtitle": "React Design & Development",
+        "desc": "Website for a PCR diagnostics company, created with React and deployed on Siteground.",
+        "tools": ["React", "CSS", "JavaScript", "Framer Motion", "emailJS"],
         "link": "https://gtdxlabs.com/",
         "btnText": "Visit Site",
         "images": [
@@ -18,6 +19,7 @@
         "path": "'/work/3",
         "subtitle": "Design & Development",
         "desc": "Website for a Southern California based HVAC company. Created on Squarespace and using custom CSS.",
+        "tools": ["Squarespace", "Custom CSS"],
         "link": "https://www.alohaairconditioningandheating.com/",
         "btnText": "Visit Site",
         "images": [
@@ -30,6 +32,7 @@
         "path": "'/work/1",
         "subtitle": "Design & Development",
         "desc": "I created this site to be a social media hub for reality TV lovers. Trash Talk allows users to select shows, seasons, and episodes to engage in spoiler-free conversations with fellow fans,  perfect for those catching up on their favorite shows. Discuss plot twists, characters, and more in a dedicated space tailored for every episode. The site is currently still in development.",
+        "tools": ["Wix", "Custom CSS", "Wix Forums"],
         "link": "https://www.realitytrashtalk.tv/",
         "btnText": "Visit Site",
         "images": [
@@ -40,8 +43,9 @@
         "id": 4,
         "title": "SIERRA GENOMICS",
         "path": "'/work/4",
-        "subtitle": "React Development",
-        "desc": "Website for a genomics company, created with React and deployed with Network Solutions.",
+        "subtitle": "React Design & Development",
+        "desc": "Website for a PCR genomics testing company, created with React and deployed with Siteground. Homepage icons were made by me in Adobe Illustrator.",
+        "tools": ["React", "CSS", "JavaScript", "Framer Motion", "emailJS", "Adobe Illustrator"],
         "link": "https://www.sierragenomics.com/",
         "btnText": "Visit Site",
         "images": [
@@ -52,9 +56,10 @@
         "id": 5,
         "title": "THE VOICE",
         "path": "'/work/5",
-        "subtitle": "React Developement",
+        "subtitle": "React Design & Developement",
         "desc": "Website for a book launch, created with React and deployed with Network Solutions.",
         "link": "https://www.auriclebooks.com/",
+        "tools" : ["React", "CSS", "JavaScript", "emailJS"],
         "btnText": "Visit Site",
         "images": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729552186/screencapture-auriclebooks-2024-10-21-16_06_18_h74swv.webp"
@@ -66,6 +71,7 @@
         "path": "'/work/6",
         "subtitle": "Design and Development",
         "desc": "Website created on Wix for an AI case management tool.",
+        "tools": ["Wix", "Custom CSS"],
         "link": "https://www.casehelpersai.com/",
         "btnText": "Visit Site",
         "images": [
@@ -78,6 +84,7 @@
         "path": "'/work/7",
         "subtitle": "UX/UI Design",
         "desc": "UX/UI design for a mobile app that allows users to find and connect with other creatives in their immediate area. Created in Figma. App is still in development.",
+        "tools": ["Figma"],
         "link": "https://www.figma.com/file/zFTV5D1KbmX7PrF1qsTmXA/EMIT?type=design&node-id=0%3A1&mode=dev&t=6HoGkiw1kIYHgt2i-1",
         "btnText": "View Prototype",
         "images": [
@@ -91,6 +98,7 @@
         "path": "'/work/8",
         "subtitle": "Graphic Design",
         "desc": "Flyers for a PCR diagnostics company.",
+        "tools": ["Adobe Illustrator", "Canva"],
         "images": [
             "https://placehold.jp/950x600.png"
         ]
