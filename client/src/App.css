@@ -91,7 +91,8 @@ body {
 }
 
 .back-btn:hover {
-  background-color: #382725;
+  /* background-color: #382725; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #2c1f1d;
   color: #ffcae0;
 }

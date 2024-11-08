@@ -56,6 +56,13 @@
   animation: slide-bottom 1s;
 }
 
+/* .gradient-text {
+  background: linear-gradient(90deg, #ffcae0, #f8f8ff);
+  background-clip: text; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
 .link-title {
   font-family: 'TAN-BUSTER';
   font-size: 35px;
@@ -103,6 +110,7 @@
   right: 0;
   margin: 1rem;
 }
+
 
 @keyframes fadeIn {
   0% {

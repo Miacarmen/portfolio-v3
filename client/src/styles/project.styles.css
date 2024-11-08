@@ -66,7 +66,7 @@
 .p-tools-container h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .p-tools {
@@ -105,9 +105,11 @@
 }
 
 .link-btn:hover {
-  background-color: #362624;
+  /* background-color: #362624; */
+  background-color: #4b3531;
   border: 1px solid #2c1f1d;
   color: #ffcae0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes fadeIn {
