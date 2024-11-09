@@ -32,6 +32,7 @@
 /* Custom arrow styles */
 .custom-arrow {
   color: #f8f8ff;
+  opacity: 0.8;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -83,7 +84,7 @@
 @media screen and (max-width: 768px) {
   .carousel-container,
   .flyer-carousel {
-    width: 90%;
+    width: 100%;
   }
 
   .flyer-image {
@@ -93,6 +94,8 @@
 
   .custom-arrow {
     font-size: 20px;
+    top: 40%;
+    transform: translateY(-50%);
   }
 
   .custom-prev {
@@ -110,6 +113,6 @@
   .flyer-caption {
     font-size: 16px; /* Smaller font size for mobile */
     max-width: 100%; /* Allow full width on mobile */
-    padding: 0 10px; /* Add padding for better readability */
+    padding: 0 10px 10px 10px; /* Add padding for better readability */
   }
 }
