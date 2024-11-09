@@ -22,7 +22,6 @@
         ],
         "phoneMockup": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731110798/iPhone_15_Mockup_Perspective_2_bubwqk.png",
         "mainFlyer": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102813/GT-Overview-Flyer_etg1qk.png",
-        "mainFlyerDesc": "Flyer that highlights the company's services and products.",
         "flyerCollection": [
             
             {
@@ -85,7 +84,8 @@
         "btnText": "Visit Site",
         "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551292/screencapture-alohaairconditioningandheating-2024-09-24-15_09_01_tugsqz.png"
-        ]
+        ],
+        "phoneMockup": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731111706/iPhone_15_Mockup_Perspective_3_e61gww.png"
     },
     {
         "id": 3,
@@ -102,7 +102,8 @@
         "btnText": "Visit Site",
         "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729915041/trash-talk-screen-shot.web_eul7xg.webp"
-        ]
+        ],
+        "phoneMockup": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731113235/iPhone_15_Mockup_Perspective_5_pgyuwf.png"
     },
     {
         "id": 4,
@@ -122,7 +123,8 @@
         "btnText": "Visit Site",
         "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551277/screencapture-sierra-genomics-2024-09-24-15_09_36_gusglo.png"
-        ]
+        ],
+        "phoneMockup": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731111895/iPhone_15_Mockup_Perspective_4_lmfb5l.png"
     },
     {
         "id": 5,
@@ -140,7 +142,8 @@
         "btnText": "Visit Site",
         "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729552186/screencapture-auriclebooks-2024-10-21-16_06_18_h74swv.webp"
-        ]
+        ],
+        "phoneMockup": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731113613/iPhone_15_Mockup_Perspective_7_tt5utp.png"
     },
     {
         "id": 6,
@@ -156,7 +159,8 @@
         "btnText": "Visit Site",
         "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551256/screencapture-casehelpersai-2024-10-21-15_50_04_dhmlhg.png"
-        ]
+        ],
+        "phoneMockup": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731113806/iPhone_15_Mockup_Perspective_8_gfmfog.png"
     },
     {
         "id": 7,
@@ -172,14 +176,15 @@
         "webImg": [
             "https://i.ibb.co/bXYK65j/The-WKND-i-Phone-Mockup-1.png",
             "https://i.ibb.co/bHRprWV/Screenshot-2024-05-24-at-5-22-33-PM.png"
-        ]
+        ],
+        "phoneMockup": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731114065/iPhone_15_Mockup_Perspective_9_cgxjgd.png"
     },
     {
         "id": 8,
         "title": "L&L Diagnostics",
         "path": "'/work/8",
         "subtitle": "Graphic Design",
-        "desc": "Flyers for a PCR diagnostics company.",
+        "desc": "Marketing & Branding Materials for a diagnostics company.",
         "tools": [
             "Adobe Illustrator",
             "Canva"
@@ -191,42 +196,54 @@
                 "caption": "Flyer that highlights the company's services and products."
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102469/ll-allergy-staggeredcutflyer-8.5inx11in-v-p1-.50inch_2-1_dsd0k6.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102469/ll-allergy-staggeredcutflyer-8.5inx11in-v-p1-.50inch_2-1_dsd0k6.png",
+                "caption": "Staggered cut flyer for allergy testing - 1 of 5"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102459/ll-wellness-staggeredcutflyer-8.5inx11in-v-p2-.50inch_2-1_uvufll.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102459/ll-wellness-staggeredcutflyer-8.5inx11in-v-p2-.50inch_2-1_uvufll.png",
+                "caption": "Staggered cut flyer for wellness testing - 2 of 5"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102445/ll-pneumonia-staggeredcutflyer-8.5inx11in-v-p3-.50inch_2-1_roe8mc.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102445/ll-pneumonia-staggeredcutflyer-8.5inx11in-v-p3-.50inch_2-1_roe8mc.png",
+                "caption": "Staggered cut flyer for pneumonia testing - 3 of 5"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102435/ll-uti-staggeredcutflyer-8.5inx11in-v-p4-.50inch_2-1_bedmf5.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102435/ll-uti-staggeredcutflyer-8.5inx11in-v-p4-.50inch_2-1_bedmf5.png",
+                "caption": "Staggered cut flyer for UTI testing - 4 of 5"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102421/ll-nail-staggeredcutflyer-8.5inx11in-v-p5-.50inch_2-1_udb5ez.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102421/ll-nail-staggeredcutflyer-8.5inx11in-v-p5-.50inch_2-1_udb5ez.png",
+                "caption": "Staggered cut flyer for nail testing - 5 of 5"
             }
         ],
         "flyerCollectionB": [
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101386/LL-resp-panel_cdnmne.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101386/LL-resp-panel_cdnmne.png",
+                "caption": "Informational flyer to promote the benefits of L&L's Panel for respiratory testing."
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101777/ll-wound-collection_otprrw.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101777/ll-wound-collection_otprrw.png",
+                "caption": "Instructional flyer for health care professionals on how to collect a wound sample."
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-uti-collection_cvtzl3.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-uti-collection_cvtzl3.png",
+                "caption": "Instructional flyer for health care professionals on how to collect a UTI sample."
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-nail-collection_ql8bhe.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-nail-collection_ql8bhe.png",
+                "caption": "Instructional flyer for health care professionals on how to collect a nail sample."
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-resp-collection_cwjvwl.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-resp-collection_cwjvwl.png",
+                "caption": "Instructional flyer for health care professionals on how to collect a respiratory sample."
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-wellness-collection_kyenq5.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-wellness-collection_kyenq5.png",
+                "caption": "Instructional flyer for health care professionals on how to collect a blood wellness sample."
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-allergy-collection_ank7jz.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-allergy-collection_ank7jz.png",
+                "caption": "Instructional flyer for health care professionals on how to collect a blood allergy sample."
             }
         ],
         "secondaryImg": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101386/LL-resp-panel_cdnmne.png"
