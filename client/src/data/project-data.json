@@ -23,7 +23,6 @@
         "phoneMockup": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731110798/iPhone_15_Mockup_Perspective_2_bubwqk.png",
         "mainFlyer": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102813/GT-Overview-Flyer_etg1qk.png",
         "flyerCollection": [
-            
             {
                 "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102813/GT-Overview-Flyer_etg1qk.png",
                 "caption": "Flyer that highlights the company's services and products."
@@ -33,40 +32,52 @@
                 "caption": "Booklet created for Grand Teton Diagnostics. The booklet is a comprehensive guide to the company's services and products."
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102805/Gt-book-p2_xe7pky.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102805/Gt-book-p2_xe7pky.png",
+                "caption": "Page 2 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102806/Gt-book-p3_ljdchq.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102806/Gt-book-p3_ljdchq.png",
+                "caption": "Page 3 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102806/Gt-book-p4_jjsglz.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102806/Gt-book-p4_jjsglz.png",
+                "caption": "Page 4 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102807/Gt-book-p5_hgznzi.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102807/Gt-book-p5_hgznzi.png",
+                "caption": "Page 5 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102808/Gt-book-p6_wr7ove.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102808/Gt-book-p6_wr7ove.png",
+                "caption": "Page 6 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102808/Gt-book-p7_mhyqwv.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102808/Gt-book-p7_mhyqwv.png",
+                "caption": "Page 7 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102809/Gt-book-p8_mheqyg.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102809/Gt-book-p8_mheqyg.png",
+                "caption": "Page 8 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102809/Gt-book-p9_br7owj.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102809/Gt-book-p9_br7owj.png",
+                "caption": "Page 9 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102810/Gt-book-p10_bphn4b.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102810/Gt-book-p10_bphn4b.png",
+                "caption": "Page 10 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102811/Gt-book-p11_o52n5z.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102811/Gt-book-p11_o52n5z.png",
+                "caption": "Page 11 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102811/Gt-book-p12_z6clvw.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102811/Gt-book-p12_z6clvw.png",
+                "caption": "Page 12 of 13"
             },
             {
-                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102812/Gt-book-p13_axmbyh.png"
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102812/Gt-book-p13_axmbyh.png",
+                "caption": "Page 13 of 13"
             }
         ]
     },

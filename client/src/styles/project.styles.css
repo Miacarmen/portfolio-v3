@@ -173,6 +173,10 @@
     font-size: 20px;
   }
 
+  .phone-mockup {
+    width: 300px;
+  }
+
   .link-btn {
     padding: 0.5em 3em 0.5em 3em;
     border-radius: 50px;

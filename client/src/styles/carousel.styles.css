@@ -42,6 +42,8 @@
   border: none !important; /* Remove any border */
   padding: 0 !important; /* Remove any padding */
   box-shadow: none !important; /* Remove any shadow */
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4)); /* Adds depth for bold effect */
+
 }
 
 .custom-prev {
@@ -56,7 +58,7 @@
 
 /* Inactive dots */
 .slick-dots li button:before {
-  font-size: 10px; 
+  font-size: 10px;
   color: #362624; /* Color for inactive dots */
   opacity: 1; /* Ensure the color applies fully */
 }
@@ -75,4 +77,39 @@
   font-size: 20px;
   font-weight: 100;
   word-wrap: break-word; /* Ensures long words break properly */
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .carousel-container,
+  .flyer-carousel {
+    width: 90%;
+  }
+
+  .flyer-image {
+    width: 100%; /* Adjust to fit smaller screens */
+    max-width: 100%;
+  }
+
+  .custom-arrow {
+    font-size: 20px;
+  }
+
+  .custom-prev {
+    left: -40px;
+  }
+
+  .custom-next {
+    right: -40px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 8px;
+  }
+
+  .flyer-caption {
+    font-size: 16px; /* Smaller font size for mobile */
+    max-width: 100%; /* Allow full width on mobile */
+    padding: 0 10px; /* Add padding for better readability */
+  }
 }
