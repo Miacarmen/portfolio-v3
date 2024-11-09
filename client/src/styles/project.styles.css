@@ -43,11 +43,27 @@
 }
 
 .p-image {
-  width: 1000px;
+  width: 800px;
 }
 
 .p-desc {
   /* padding-top: 2em; */
+  padding: 1em 0em 0em 0em;
+  width: 800px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.phone-mockup {
+  width: 600px;
+}
+
+.flyer-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1em 0em 1em 0em;
   width: 1000px;
   text-align: center;
@@ -105,8 +121,8 @@
 }
 
 .link-btn:hover {
-  /* background-color: #362624; */
-  background-color: #4b3531;
+  background-color: #362624;
+  /* background-color: #4b3531; */
   border: 1px solid #2c1f1d;
   color: #ffcae0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

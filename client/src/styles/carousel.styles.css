@@ -1,0 +1,78 @@
+/* FlyerCarousel.css */
+.carousel-container {
+  width: 80%;
+  text-align: center;
+  margin: 2em 0 4em 0;
+}
+
+.flyer-carousel {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flyer-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+}
+
+.flyer-image {
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Custom arrow styles */
+.custom-arrow {
+  color: #f8f8ff;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  z-index: 1;
+  background: none !important; /* Remove any background */
+  border: none !important; /* Remove any border */
+  padding: 0 !important; /* Remove any padding */
+  box-shadow: none !important; /* Remove any shadow */
+}
+
+.custom-prev {
+  left: 20px;
+}
+
+.custom-next {
+  right: 20px;
+}
+
+/* Dot styles */
+
+/* Inactive dots */
+.slick-dots li button:before {
+  font-size: 10px; 
+  color: #362624; /* Color for inactive dots */
+  opacity: 1; /* Ensure the color applies fully */
+}
+
+/* Active dot */
+.slick-dots li.slick-active button:before {
+  color: #ffcae0; /* Color for active dot */
+}
+
+/* Caption styles */
+.flyer-caption {
+  margin: 20px auto;
+  max-width: 500px; /* Match the width of the image */
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  word-wrap: break-word; /* Ensures long words break properly */
+}

@@ -1,16 +1,74 @@
 [
-  
     {
         "id": 1,
         "title": "GRAND TETON DIAGNOSTICS",
         "path": "'/work/2",
         "subtitle": "React Design & Development",
         "desc": "Website for a PCR diagnostics company, created with React and deployed on Siteground.",
-        "tools": ["React", "CSS", "JavaScript", "Framer Motion", "emailJS"],
+        "descB": "Marketing & Branding Materials",
+        "tools": [
+            "React",
+            "CSS",
+            "JavaScript",
+            "Framer Motion",
+            "emailJS",
+            "Adobe Illustrator",
+            "Canva"
+        ],
         "link": "https://gtdxlabs.com/",
         "btnText": "Visit Site",
-        "images": [
+        "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551309/screencapture-gtdxlabs-2024-09-24-14_33_46_xt7a5x.png"
+        ],
+        "phoneMockup": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731110798/iPhone_15_Mockup_Perspective_2_bubwqk.png",
+        "mainFlyer": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102813/GT-Overview-Flyer_etg1qk.png",
+        "mainFlyerDesc": "Flyer that highlights the company's services and products.",
+        "flyerCollection": [
+            
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102813/GT-Overview-Flyer_etg1qk.png",
+                "caption": "Flyer that highlights the company's services and products."
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102805/Gt-book-p1_biilsv.png",
+                "caption": "Booklet created for Grand Teton Diagnostics. The booklet is a comprehensive guide to the company's services and products."
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102805/Gt-book-p2_xe7pky.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102806/Gt-book-p3_ljdchq.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102806/Gt-book-p4_jjsglz.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102807/Gt-book-p5_hgznzi.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102808/Gt-book-p6_wr7ove.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102808/Gt-book-p7_mhyqwv.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102809/Gt-book-p8_mheqyg.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102809/Gt-book-p9_br7owj.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102810/Gt-book-p10_bphn4b.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102811/Gt-book-p11_o52n5z.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102811/Gt-book-p12_z6clvw.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102812/Gt-book-p13_axmbyh.png"
+            }
         ]
     },
     {
@@ -19,10 +77,13 @@
         "path": "'/work/3",
         "subtitle": "Design & Development",
         "desc": "Website for a Southern California based HVAC company. Created on Squarespace and using custom CSS.",
-        "tools": ["Squarespace", "Custom CSS"],
+        "tools": [
+            "Squarespace",
+            "Custom CSS"
+        ],
         "link": "https://www.alohaairconditioningandheating.com/",
         "btnText": "Visit Site",
-        "images": [
+        "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551292/screencapture-alohaairconditioningandheating-2024-09-24-15_09_01_tugsqz.png"
         ]
     },
@@ -32,11 +93,15 @@
         "path": "'/work/1",
         "subtitle": "Design & Development",
         "desc": "I created this site to be a social media hub for reality TV lovers. Trash Talk allows users to select shows, seasons, and episodes to engage in spoiler-free conversations with fellow fans,  perfect for those catching up on their favorite shows. Discuss plot twists, characters, and more in a dedicated space tailored for every episode. The site is currently still in development.",
-        "tools": ["Wix", "Custom CSS", "Wix Forums"],
+        "tools": [
+            "Wix",
+            "Custom CSS",
+            "Wix Forums"
+        ],
         "link": "https://www.realitytrashtalk.tv/",
         "btnText": "Visit Site",
-        "images": [
-            "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729915145/trash-talk-screenshot_q6yifx.webp"
+        "webImg": [
+            "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729915041/trash-talk-screen-shot.web_eul7xg.webp"
         ]
     },
     {
@@ -45,10 +110,17 @@
         "path": "'/work/4",
         "subtitle": "React Design & Development",
         "desc": "Website for a PCR genomics testing company, created with React and deployed with Siteground. Homepage icons were made by me in Adobe Illustrator.",
-        "tools": ["React", "CSS", "JavaScript", "Framer Motion", "emailJS", "Adobe Illustrator"],
+        "tools": [
+            "React",
+            "CSS",
+            "JavaScript",
+            "Framer Motion",
+            "emailJS",
+            "Adobe Illustrator"
+        ],
         "link": "https://www.sierragenomics.com/",
         "btnText": "Visit Site",
-        "images": [
+        "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551277/screencapture-sierra-genomics-2024-09-24-15_09_36_gusglo.png"
         ]
     },
@@ -59,9 +131,14 @@
         "subtitle": "React Design & Developement",
         "desc": "Website for a book launch, created with React and deployed with Network Solutions.",
         "link": "https://www.auriclebooks.com/",
-        "tools" : ["React", "CSS", "JavaScript", "emailJS"],
+        "tools": [
+            "React",
+            "CSS",
+            "JavaScript",
+            "emailJS"
+        ],
         "btnText": "Visit Site",
-        "images": [
+        "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729552186/screencapture-auriclebooks-2024-10-21-16_06_18_h74swv.webp"
         ]
     },
@@ -71,10 +148,13 @@
         "path": "'/work/6",
         "subtitle": "Design and Development",
         "desc": "Website created on Wix for an AI case management tool.",
-        "tools": ["Wix", "Custom CSS"],
+        "tools": [
+            "Wix",
+            "Custom CSS"
+        ],
         "link": "https://www.casehelpersai.com/",
         "btnText": "Visit Site",
-        "images": [
+        "webImg": [
             "https://res.cloudinary.com/dh8uixj4v/image/upload/v1729551256/screencapture-casehelpersai-2024-10-21-15_50_04_dhmlhg.png"
         ]
     },
@@ -84,10 +164,12 @@
         "path": "'/work/7",
         "subtitle": "UX/UI Design",
         "desc": "UX/UI design for a mobile app that allows users to find and connect with other creatives in their immediate area. Created in Figma. App is still in development.",
-        "tools": ["Figma"],
+        "tools": [
+            "Figma"
+        ],
         "link": "https://www.figma.com/file/zFTV5D1KbmX7PrF1qsTmXA/EMIT?type=design&node-id=0%3A1&mode=dev&t=6HoGkiw1kIYHgt2i-1",
         "btnText": "View Prototype",
-        "images": [
+        "webImg": [
             "https://i.ibb.co/bXYK65j/The-WKND-i-Phone-Mockup-1.png",
             "https://i.ibb.co/bHRprWV/Screenshot-2024-05-24-at-5-22-33-PM.png"
         ]
@@ -98,9 +180,55 @@
         "path": "'/work/8",
         "subtitle": "Graphic Design",
         "desc": "Flyers for a PCR diagnostics company.",
-        "tools": ["Adobe Illustrator", "Canva"],
-        "images": [
-            "https://placehold.jp/950x600.png"
-        ]
+        "tools": [
+            "Adobe Illustrator",
+            "Canva"
+        ],
+        "mainFlyer": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101495/LL-overview-flyer_tz0vqk.png",
+        "flyerCollection": [
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101495/LL-overview-flyer_tz0vqk.png",
+                "caption": "Flyer that highlights the company's services and products."
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102469/ll-allergy-staggeredcutflyer-8.5inx11in-v-p1-.50inch_2-1_dsd0k6.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102459/ll-wellness-staggeredcutflyer-8.5inx11in-v-p2-.50inch_2-1_uvufll.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102445/ll-pneumonia-staggeredcutflyer-8.5inx11in-v-p3-.50inch_2-1_roe8mc.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102435/ll-uti-staggeredcutflyer-8.5inx11in-v-p4-.50inch_2-1_bedmf5.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731102421/ll-nail-staggeredcutflyer-8.5inx11in-v-p5-.50inch_2-1_udb5ez.png"
+            }
+        ],
+        "flyerCollectionB": [
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101386/LL-resp-panel_cdnmne.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101777/ll-wound-collection_otprrw.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-uti-collection_cvtzl3.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-nail-collection_ql8bhe.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-resp-collection_cwjvwl.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-wellness-collection_kyenq5.png"
+            },
+            {
+                "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-allergy-collection_ank7jz.png"
+            }
+        ],
+        "secondaryImg": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101386/LL-resp-panel_cdnmne.png"
     }
 ]
