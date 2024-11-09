@@ -4,6 +4,7 @@
         "title": "GRAND TETON DIAGNOSTICS",
         "path": "'/work/2",
         "subtitle": "React Design & Development",
+        "subtitleB": "& Graphic Design",
         "desc": "Website for a PCR diagnostics company, created with React and deployed on Siteground.",
         "descB": "Marketing & Branding Materials",
         "tools": [
@@ -183,7 +184,7 @@
             "Figma"
         ],
         "link": "https://www.figma.com/file/zFTV5D1KbmX7PrF1qsTmXA/EMIT?type=design&node-id=0%3A1&mode=dev&t=6HoGkiw1kIYHgt2i-1",
-        "btnText": "View Prototype",
+        "btnText": "View Wireframes",
         "webImg": [
             "https://i.ibb.co/bXYK65j/The-WKND-i-Phone-Mockup-1.png",
             "https://i.ibb.co/bHRprWV/Screenshot-2024-05-24-at-5-22-33-PM.png"
@@ -256,7 +257,6 @@
                 "url": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101776/ll-allergy-collection_ank7jz.png",
                 "caption": "Instructional flyer for health care professionals on how to collect a blood allergy sample."
             }
-        ],
-        "secondaryImg": "https://res.cloudinary.com/dh8uixj4v/image/upload/v1731101386/LL-resp-panel_cdnmne.png"
+        ]
     }
 ]

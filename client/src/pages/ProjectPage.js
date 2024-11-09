@@ -43,6 +43,8 @@ const ProjectPage = () => {
         <div>
           {data.title && <h1 className='p-title'>{data.title}</h1>}
           {data.subtitle && <p className='p-subtitle'>{data.subtitle}</p>}
+          {/* Render subtitleB only if available */}
+          {data.subtitleB && <p className='p-subtitle'>{data.subtitleB}</p>}
         </div>
         {showScrollIndicator && (
           <div className='col-3-4' id='scrollIndicator'>
@@ -80,7 +82,7 @@ const ProjectPage = () => {
           </div>
         )}
 
-        {/* Render description if available */}
+        {/* Render descriptionB if available */}
         {data.descB && <div className='p-desc'>{data.descB}</div>}
 
         {/* Render carousel if flyerCollection is available */}
