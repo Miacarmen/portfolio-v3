@@ -23,6 +23,7 @@
   font-family: 'TAN-BUSTER', 'Lato', sans-serif;
   font-weight: 700;
   font-size: 100px;
+  line-height: 120px;
   /* animation: slide-bottom 1s; */
 }
 
@@ -77,6 +78,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 2em;
+  width: 40%;
 }
 
 .p-tools-container h3 {

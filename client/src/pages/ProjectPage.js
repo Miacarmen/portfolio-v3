@@ -11,15 +11,22 @@ const ProjectPage = () => {
   const [showScrollIndicator, setShowScrollIndicator] = useState(true);
 
   useEffect(() => {
-    const handleWheel = () => {
-      setShowScrollIndicator(false);
-      window.removeEventListener('wheel', handleWheel);
+    const handleScroll = () => {
+      setTimeout(() => {
+        setShowScrollIndicator(false); // Hide the arrow after a small delay
+      }, 100); // 100ms delay to prevent immediate hiding on minor movements
+
+      // Remove event listeners after the first scroll
+      window.removeEventListener('wheel', handleScroll);
+      window.removeEventListener('touchmove', handleScroll);
     };
 
-    window.addEventListener('wheel', handleWheel);
+    window.addEventListener('wheel', handleScroll); // Desktop scroll
+    window.addEventListener('touchmove', handleScroll); // Mobile scroll
 
     return () => {
-      window.removeEventListener('wheel', handleWheel);
+      window.removeEventListener('wheel', handleScroll);
+      window.removeEventListener('touchmove', handleScroll);
     };
   }, []);
 

@@ -43,8 +43,6 @@
   border: none !important; /* Remove any border */
   padding: 0 !important; /* Remove any padding */
   box-shadow: none !important; /* Remove any shadow */
-  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.4)); /* Adds depth for bold effect */
-
 }
 
 .custom-prev {
@@ -88,7 +86,7 @@
   }
 
   .flyer-image {
-    width: 100%; /* Adjust to fit smaller screens */
+    width: 100%;
     max-width: 100%;
   }
 
@@ -113,6 +111,6 @@
   .flyer-caption {
     font-size: 16px; /* Smaller font size for mobile */
     max-width: 100%; /* Allow full width on mobile */
-    padding: 0 10px 10px 10px; /* Add padding for better readability */
+    padding: 0 10px 10px 10px;
   }
 }
