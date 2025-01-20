@@ -56,13 +56,6 @@
   animation: slide-bottom 1s;
 }
 
-/* .gradient-text {
-  background: linear-gradient(90deg, #ffcae0, #f8f8ff);
-  background-clip: text; 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
 .link-title {
   font-family: 'TAN-BUSTER';
   font-size: 35px;
@@ -111,7 +104,6 @@
   margin: 1rem;
 }
 
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -132,6 +124,76 @@
   }
 }
 
+/* Tablet Styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .work-grid-container {
+    display: grid; /* Retain the desktop grid layout */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem; /* Reduce gap for better fit */
+    margin: 0 auto; /* Center the grid container and remove excess margin */
+    padding: 0 2rem;
+  }
+
+  .col-1-4 {
+    grid-column: span 1; /* Keep the column layout */
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    margin: 2em 1em 0em 2em; /* Adjust margins */
+  }
+
+  .col-2-4 {
+    grid-column: span 2; /* Keep the two-column span */
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 120px); /* Slightly reduce height for better fit */
+    overflow: auto;
+    margin-left: 2em;
+  }
+
+  .work-tagline {
+    font-size: 24px;
+    padding: 0em 4em;
+  }
+
+  .link-title {
+    font-size: 28px;
+  }
+
+  .link-desc {
+    font-size: 18px;
+  }
+
+  .col-3-4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0.5rem;
+  }
+
+  h1.mobile-head {
+    line-height: 70px;
+    margin-bottom: 0.5em;
+  }
+
+  .custom-link {
+    font-size: 18px;
+    padding-bottom: 1.5em; /* Reduce spacing between links */
+  }
+
+  .col-2-4::-webkit-scrollbar {
+    width: 6px; /* Add a slim scrollbar for better usability on tablets */
+  }
+
+  .col-2-4::-webkit-scrollbar-thumb {
+    background: rgba(255, 202, 224, 0.6); /* Subtle scrollbar thumb */
+    border-radius: 4px;
+  }
+}
+
 /* Mobile styles */
 @media screen and (max-width: 768px) {
   .work-container {
@@ -141,7 +203,6 @@
     align-items: center;
     text-align: center;
     min-height: 0;
-    
   }
 
   .work-mobile-container {

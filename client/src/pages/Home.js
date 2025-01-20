@@ -25,7 +25,18 @@ const Home = () => {
         </>
       ) : isTablet ? (
         // Tablet Content
-        <></>
+        <>
+          <div className='grid-container'>
+            <div className='col-1'>
+              <h1 className='special'>MIA</h1>
+              <h1 className='special'>CARMEN</h1>
+              <p className='tagline'>Full Stack Developer / UX/UI Designer</p>
+            </div>
+            <div className='col-2'>
+              <HomeNav />
+            </div>
+          </div>
+        </>
       ) : (
         <>
           {/* <NavBar /> */}

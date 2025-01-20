@@ -55,7 +55,36 @@ const Work = () => {
         </>
       ) : isTablet ? (
         // Tablet Content
-        <></>
+        <>
+          <div className='work-grid-container'>
+            <div className='col-1-4'>
+              <h1 className='mobile-head'>WORK</h1>
+              <p className='work-tagline'>
+                A showcase of my work, varying from Graphic Design, Web
+                Development, and Product Branding
+              </p>
+            </div>
+
+            <div className='col-2-4'>
+              {linkData.map((data) => (
+                <Link
+                  key={data.id}
+                  to={{ pathname: `/work/${data.id}` }}
+                  className='custom-link'
+                >
+                  <h2 className='link-title'>{data.title}</h2>
+                  <p className='link-desc'>{data.subtitle}</p>
+                </Link>
+              ))}
+
+              {showScrollIndicator && (
+                <div className='col-3-4' id='scrollIndicator'>
+                  <BsArrowDownShort style={{ width: '28px', height: '28px' }} />
+                </div>
+              )}
+            </div>
+          </div>
+        </>
       ) : (
         <>
           <div className='work-grid-container'>
